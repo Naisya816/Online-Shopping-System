@@ -36,11 +36,11 @@ public class ShoppingCart {
         System.out.println("\n===== ISI KERANJANG BELANJA =====");
         for (int i = 0; i < items.size(); i++) {
             System.out.println((i+1) + ". " + items.get(i).getName() + 
-                              " - " + quantities.get(i) + " x Rp" + 
-                              items.get(i).getPrice() + " = Rp" + 
+                              " - " + quantities.get(i) + " x EURO " + 
+                              items.get(i).getPrice() + " = EURO " + 
                               (items.get(i).getPrice() * quantities.get(i)));
         }
-        System.out.println("Total: Rp" + calculateTotal());
+        System.out.println("Total: EURO " + calculateTotal());
         System.out.println("================================");
     }
     
@@ -61,7 +61,7 @@ public class ShoppingCart {
         }
         
         if (allSuccess) {
-            System.out.println("Checkout berhasil! Total pembayaran: Rp" + calculateTotal());
+            System.out.println("Checkout berhasil! Total pembayaran: EURO " + calculateTotal());
             // Kosongkan keranjang setelah checkout berhasil
             items.clear();
             quantities.clear();
