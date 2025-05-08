@@ -50,7 +50,7 @@ public class Product {
     public void displayInfo() {
         System.out.println("ID: " + id);
         System.out.println("Nama: " + name);
-        System.out.println("Harga: Rp" + price);
+        System.out.println("Harga: EUR " + price);
         System.out.println("Stok: " + stock);
     }
     
