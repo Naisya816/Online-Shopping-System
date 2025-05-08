@@ -42,14 +42,14 @@ public class MainApp {
     
     private static void initializeProducts() {
         // Menambahkan produk elektronik
-        productList.add(new Electronic("E001", "Laptop Asus", 10000000, 5, "Asus", 24));
-        productList.add(new Electronic("E002", "Smartphone Samsung", 5000000, 10, "Samsung", 12));
-        productList.add(new Electronic("E003", "Headphone Sony", 1500000, 15, "Sony", 6));
+        productList.add(new Electronic("E001", "Laptop Asus", 10.25, 5, "Asus", 24));
+        productList.add(new Electronic("E002", "Smartphone Samsung", 50.48, 10, "Samsung", 12));
+        productList.add(new Electronic("E003", "Headphone Sony", 15.42, 15, "Sony", 6));
         
         // Menambahkan produk pakaian
-        productList.add(new Clothing("C001", "Kemeja Formal", 350000, 20, "L", "Katun"));
-        productList.add(new Clothing("C002", "Celana Jeans", 450000, 15, "32", "Denim"));
-        productList.add(new Clothing("C003", "Jaket Hoodie", 275000, 25, "XL", "Fleece"));
+        productList.add(new Clothing("C001", "Kemeja Formal", 35.27, 20, "L", "Katun"));
+        productList.add(new Clothing("C002", "Celana Jeans", 45.19, 15, "32", "Denim"));
+        productList.add(new Clothing("C003", "Jaket Hoodie", 27.55, 25, "XL", "Fleece"));
     }
     
     private static void displayMenu() {
